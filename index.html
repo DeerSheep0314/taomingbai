@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ef">
+  <meta name="description" content="淘明白，把宝贝讲明白，把选择留给你。可听、可看、可操作的购物小剧场，支持大字、规格对比、清单展开与分享。">
+  <title>淘明白 · 这一次，我自己挑</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/icon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./premium.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <div id="app"></div>
+  <div id="announcer" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+  <div id="toast" class="toast" aria-hidden="true"></div>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <noscript><main class="noscript"><h1>淘明白</h1><p>这是一款可交互的购物说明工具，需要开启 JavaScript 才能切换规格和保存清单。不会收取费用或执行购买。</p></main></noscript>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
